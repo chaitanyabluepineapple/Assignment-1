@@ -1,0 +1,60 @@
+/* Table Component CSS */
+
+.table
+{
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table th
+{
+    background-color: black;
+    color: white;
+    padding: 12px;
+}
+
+.table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+
+.btn
+{
+    border-radius: 5px;
+}
+
+.btn:hover
+{
+    background-color: rgb(108, 119, 119);
+}
+
+.table tr:nth-child(even){background-color: #f2f2f2;}
+
+.table tr:hover {background-color: #ddd;}
+
+ul {
+    -webkit-column-count: 4;
+    -webkit-column-gap: 10px;
+    column-count: 4;
+    column-gap: 10px;
+}
+
+
+/* Profile Component CSS */
+.Img
+{
+    text-align: center;
+}
+
+.empdetails
+{
+    text-align: center;
+}
+
+ol
+{
+    list-style: none;
+}
